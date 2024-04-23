@@ -1,16 +1,8 @@
 # copyright (c) 2024 Alex Telford, http://minimaleffort.tech
 # pylint: disable=fixme, import-error
 from __future__ import annotations
-import sys
-_PATH = r"E:\git\met_viewport_utils\python"
-if _PATH not in sys.path:
-    sys.path.append(_PATH)
-_PATH = r"E:\git\met_blender_viewport_utils\python"
-if _PATH not in sys.path:
-    sys.path.append(_PATH)
 import bpy
 import numpy as np
-import gpu
 from met_viewport_utils.constants import (
     Axis, Align, MouseButton, KeyboardModifier, FontWeight,
     GPUShaderPrimitiveType, GPUShaderState, FontStyle, ItemState, InteractionFlags)
